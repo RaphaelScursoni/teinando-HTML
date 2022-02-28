@@ -2,6 +2,16 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="author" content="Raphael Scursoni">
+        <meta name="description" content="Um website para iniciantes em programação">
+        <meta name="robots" content="index, follow">
+         <!-- Open Graph: facebook -->
+    <meta property="og:image" content="https://cdn-images-1.medium.com/max/92/1*TkXVfLTwsHdwpUEjGzdi9w@2x.jpeg">
+    <meta property="og:description" content="Aqui vem um texto para ser mostrado ao compartilhar no facebook">
+    <meta property="og:title" content="Um site da Rocketseat">
+
+    <!-- twitter -->
+    <meta name="twitter:title" content="Rocketseat">
         <title>Anatomia do Documento</title>
     </head>
 
@@ -240,5 +250,103 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ex inventore ea n
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur in placeat architecto earum, ullam iusto nesciunt nobis perferendis quam, quo consequatur adipisci magni, ipsam asperiores minus odit. Doloribus, dolor expedita.
 </div>   
+ <!-- tabela básica -->
+<table>
+
+    <caption>Pessoas por idade</caption>
+
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mayk</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Diego</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total:</td>
+            <td>2 Pessoas</td>
+        </tr>
+    </tfoot>
+
+</table>
+
+ <!-- tabela complexa -->
+ <table>
+    <caption>Produzidos x Vendidos por Loja</caption>
+	
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: red">
+        <col span="2" style="background-color: blue;">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th rowspan="2" ></th>
+            <th colspan="2" scope="colgroup">Afonso Pena</th>
+            <th colspan="2" scope="colgroup">Antônia Pereira</th>
+        </tr>
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+        <tbody>
+            <tr>
+                <th scope="row">Vassouras</th>
+                <td>50</td>
+                <td>30</td>
+                <td>20</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <th scope="row">Baldes</th>
+                <td>10</td>
+                <td>10</td>
+                <td>30</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+  </thead>
+</table>
+<!--
+    <link> para ícones personalizados
+-->
+
+<!-- favicon básico -->
+<link rel="icon" href="/icons/icon-48x48.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+<!-- iPhone não-Retina, iPod Touch e dispositivos Android 2.1+: -->
+<link rel="apple-touch-icon-precomposed" href="https://developer.cdn.mozilla.net/static/img/favicon57.a2490b9a2d76.png">
+
+<!-- iPad de primeira e segunda geração: -->
+<link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+<link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+<link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+<!-- iPhone com tela retina de alta resolução: -->
+<link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+<!-- iPad de terceira geração com tela retina de alta resolução: -->
+<link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+<link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+<link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+<link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
 </body>
 </html>
